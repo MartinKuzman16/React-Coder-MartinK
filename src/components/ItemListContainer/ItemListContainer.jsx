@@ -13,7 +13,7 @@ const ItemListContainer = ({greeting}) => {
 
         })
         .catch(error => {
-            console.error (error)
+            console.error(error)
         })
     }
 ,[])
