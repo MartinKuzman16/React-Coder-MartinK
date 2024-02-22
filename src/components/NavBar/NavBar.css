@@ -1,0 +1,22 @@
+
+.navBar{
+    text-align: left;
+    justify-content: center;
+    margin: auto;
+    background-color: blue;
+  
+  }
+  .header{
+    text-align: right;
+    margin: auto;
+    justify-content: right;
+    background-color: blue;
+  
+  }
+  .boton{
+    text-align: right;
+    margin: auto;
+    justify-content: right;
+    }
+    
+    

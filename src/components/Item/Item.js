@@ -21,6 +21,7 @@ return (
                 </p>
             </section>
             <footer className='itemFooter'>
+                <link to={'/item/${id}'} className='option'>Ver detalle </link>
                 <button className='Option'>Ver detalle</button>
             </footer>
     </article>
