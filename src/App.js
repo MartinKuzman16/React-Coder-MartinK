@@ -21,6 +21,7 @@ function App() {
     <div className="App">
     <NavBar />
     <ItemListaContainer greeting={'Tus productos'}/>
+
             <section classsName ="hero is-primary">
               <div className='hero-body'>
                 <h2 className='title'>bienvenidos</h2>
@@ -61,4 +62,3 @@ function App() {
 }
 
 export default App;
-<ItemCount initial ={1} stock={10} onAdd={(quantity) => console.log('cantidad agregada', quantity)}/>

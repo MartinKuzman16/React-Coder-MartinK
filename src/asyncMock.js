@@ -22,9 +22,29 @@ const products =[
 
 
 export const getProducts = () => {
-    return new Promise ((resolve) => {
+    return new Promise((resolve) => {
         setTimeout(() => {
-            resolve (products)
+            resolve(products)
         }, 500) 
     })
 }
+
+const getProductById = (productId) => {
+    return new Promise ((resolve) => {
+        setTimeout(() => {
+            resolve (products.find(prod => prod.id === productId))
+        
+        }, 500)
+    })
+}
+
+const getProductsByCategory= (productId) => {
+    return new Promise ((resolve) => {
+        setTimeout(() => {
+            resolve (products.find(prod => prod.id === productId))
+        
+        }, 500)
+    })
+}
+
+export { getProductById, getProductsByCategory };
